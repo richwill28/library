@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.left-drawer {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+}
+
+.left-drawer > div {
+  border: 1px solid green;
+  background-color: rebeccapurple;
+  align-items: center;
+  font-size: 36px;
+  height: 20%;
+  justify-content: center;
+  padding: 52px;
+  text-align: center;
+}
+
+.left-drawer > form {
+  border: 1px solid purple;
+  height: 80%;
+  padding: 40px;
+  text-align: center;
+}
+
+.input-block {
+  border: 1px solid black;
+  font-size: 16px;
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
+
+main {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  padding: 54px;
+  width: 80%;
+}
+
+.upper-bar {
+  border: 1px solid brown;
+  height: 60px;
+  padding: 20px;
+  padding-left: 160px;
+  padding-right: 160px;
+  width: 100%;
+}
+
+.content {
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid red;
+  height: 160px;
+  padding: 30px;
+  width: 320px;
+}
